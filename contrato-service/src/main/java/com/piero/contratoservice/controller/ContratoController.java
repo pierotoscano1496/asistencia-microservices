@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
 @RestController
-@RequestMapping("/api/contrato")
+@RequestMapping("/contrato")
 public class ContratoController {
     @Autowired
     private ContratoService service;

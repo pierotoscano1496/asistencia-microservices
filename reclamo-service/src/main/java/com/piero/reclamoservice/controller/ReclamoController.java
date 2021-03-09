@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
 @RestController
-@RequestMapping("/api/reclamo")
+@RequestMapping("/reclamo")
 public class ReclamoController {
     @Autowired
     private ReclamoService service;
