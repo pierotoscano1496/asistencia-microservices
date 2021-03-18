@@ -9,3 +9,7 @@ spring:
         url: jdbc:mysql://localhost:3306/asistencia
         username: root
         password: piero
+
+my:
+    nombre: Piero
+    apellido: Toscano
