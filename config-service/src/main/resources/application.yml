@@ -8,6 +8,8 @@ spring:
                     uri: file:///${user.home}/Desktop/Proyectos/asistencia-rest
                     search-paths:
                     - config-data
+                    username: ${GIT_USER}
+                    password: ${GIT_PASSWORD}
     security:
         user:
             name: root
