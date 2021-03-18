@@ -47,7 +47,7 @@ public class ClienteController {
         }
     }
 
-    @GetMapping()
+    @GetMapping("prueba")
     public Cliente prueba() {
         Cliente cliente = new Cliente();
         cliente.setNombres(this.myNombre);

@@ -7,7 +7,7 @@ spring:
                 git:
                     uri: file:///${user.home}/Desktop/Proyectos/asistencia-rest
                     search-paths:
-                        - config-data
+                    - config-data
     security:
         user:
             name: root
