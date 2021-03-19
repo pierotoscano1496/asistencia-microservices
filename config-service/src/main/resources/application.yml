@@ -5,11 +5,12 @@ spring:
         config:
             server:
                 git:
-                    uri: https://github.com/pierotoscano1496/asistencia-microservices.git
-                    search-paths:
-                    - config-data
-                    username: ${GIT_USER}
-                    password: ${GIT_PASSWORD}
+                    # uri: https://github.com/pierotoscano1496/asistencia-microservices.git
+                    # search-paths:
+                    # - config-data
+                    # username: ${GIT_USER}
+                    # password: ${GIT_PASSWORD}
+                    uri: file:///${user.home}/Desktop/spring-cloud-server-repositories/asistencia
     security:
         user:
             name: root
