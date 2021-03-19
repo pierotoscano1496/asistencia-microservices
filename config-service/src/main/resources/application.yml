@@ -10,7 +10,7 @@ spring:
                     # - config-data
                     # username: ${GIT_USER}
                     # password: ${GIT_PASSWORD}
-                    uri: file:///${user.home}/Desktop/spring-cloud-server-repositories/asistencia
+                    uri: file:///${user.home}/Desktop/Proyectos/spring-cloud-server-repositories/asistencia
     security:
         user:
             name: root
